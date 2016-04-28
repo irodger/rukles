@@ -1,0 +1,2042 @@
+{
+    "body": [{
+        "name": "наивный",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "добрый",
+        "filter": "fy rl wow sw start"
+    }, {
+        "name": "хитрый",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "вредный",
+        "filter": "fy rl start"
+    }, {
+        "name": "адский",
+        "filter": "fy legend hr start"
+    }, {
+        "name": "азартный",
+        "filter": "fy rl start"
+    }, {
+        "name": "активный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "ангельский",
+        "filter": "fy unusual start"
+    }, {
+        "name": "арктический",
+        "filter": "fy fk"
+    }, {
+        "name": "бездушный",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "безжалостный",
+        "filter": "fy hr fk rl start"
+    }, {
+        "name": "беззастенчивый",
+        "filter": "fy rl start"
+    }, {
+        "name": "безмятежный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "безнадежный",
+        "filter": "fy rl start"
+    }, {
+        "name": "безрассудный",
+        "filter": "fy fk hr rl start"
+    }, {
+        "name": "безропотный",
+        "filter": "fy rl start"
+    }, {
+        "name": "безудержный",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "безукоризненный",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "безумный",
+        "filter": "fy hr fk rl start"
+    }, {
+        "name": "безупречный",
+        "filter": "fy epic fk rl start"
+    }, {
+        "name": "безутешный",
+        "filter": "fy rl"
+    }, {
+        "name": "белоснежный",
+        "filter": "fy fk"
+    }, {
+        "name": "бескомпромиссный",
+        "filter": "fy rl fk"
+    }, {
+        "name": "беспардонный",
+        "filter": "fy rl"
+    }, {
+        "name": "бесноватый",
+        "filter": "fy hr start"
+    }, {
+        "name": "бесповоротный",
+        "filter": "fy rl"
+    }, {
+        "name": "беспощадный",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "беспрекословный",
+        "filter": "fy rl"
+    }, {
+        "name": "беспросыпный",
+        "filter": "fy"
+    }, {
+        "name": "бессовестный",
+        "filter": "fy rl start"
+    }, {
+        "name": "бесстыдный",
+        "filter": "fy rl start"
+    }, {
+        "name": "бесценный",
+        "filter": "fy rl start"
+    }, {
+        "name": "бесчеловечный",
+        "filter": "fy hr fk start"
+    }, {
+        "name": "бесшабашный",
+        "filter": "fy rl start"
+    }, {
+        "name": "бешеный",
+        "filter": "fy hr fk rl start"
+    }, {
+        "name": "богатый",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "бедный",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "буйный",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "великий",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "величайший",
+        "filter": "fy rl fk"
+    }, {
+        "name": "внушительный",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "возмущеный",
+        "filter": "fy rl start"
+    }, {
+        "name": "впечатляющий",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "всепоглощающий",
+        "filter": "fk fy"
+    }, {
+        "name": "всесильный",
+        "filter": "fk fy"
+    }, {
+        "name": "типичный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "выдающийся",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "галопирующий",
+        "filter": "fy"
+    }, {
+        "name": "глухой",
+        "filter": "fy rl start"
+    }, {
+        "name": "горящий",
+        "filter": "fy fk hr start"
+    }, {
+        "name": "горячий",
+        "filter": "fy rl start"
+    }, {
+        "name": "грандиозный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "грозный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "громкий",
+        "filter": "fy fk rl"
+    }, {
+        "name": "громоподобный",
+        "filter": "fk fy"
+    }, {
+        "name": "грубый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "дивный",
+        "filter": "fy fk"
+    }, {
+        "name": "дикий",
+        "filter": "fy rl start"
+    }, {
+        "name": "дотошный",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "жаркий",
+        "filter": "fy fk"
+    }, {
+        "name": "жгучий",
+        "filter": "fy hr"
+    }, {
+        "name": "жесткий",
+        "filter": "fy fk rl hr start"
+    }, {
+        "name": "жестокий",
+        "filter": "fy fk hr rl start"
+    }, {
+        "name": "жесточайший",
+        "filter": "fy fk hr"
+    }, {
+        "name": "жуткий",
+        "filter": "fy hr rl"
+    }, {
+        "name": "завзятый",
+        "filter": "fy rl"
+    }, {
+        "name": "замечательный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "запредельный",
+        "filter": "fk fy"
+    }, {
+        "name": "заядлый",
+        "filter": "fk fy rl"
+    }, {
+        "name": "звериный",
+        "filter": "fy hr"
+    }, {
+        "name": "зверский",
+        "filter": "fy hr"
+    }, {
+        "name": "злой",
+        "filter": "fy fk hr rl start"
+    }, {
+        "name": "злостный",
+        "filter": "fy fk magic hr start"
+    }, {
+        "name": "значимый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "идеальный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "заурядный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "изумительный",
+        "filter": "fy fk legend rl"
+    }, {
+        "name": "исключительный",
+        "filter": "fk fy"
+    }, {
+        "name": "исполинский",
+        "filter": "fy"
+    }, {
+        "name": "исступленный",
+        "filter": "fy hr rl"
+    }, {
+        "name": "истинный",
+        "filter": "fy rl"
+    }, {
+        "name": "катастрофический",
+        "filter": "fk fy hr"
+    }, {
+        "name": "категорический",
+        "filter": "fy rl"
+    }, {
+        "name": "колоссальный",
+        "filter": "fk fy"
+    }, {
+        "name": "космический",
+        "filter": "fk start"
+    }, {
+        "name": "кричащий",
+        "filter": "fy hr rl"
+    }, {
+        "name": "кровавый",
+        "filter": "fy hr start"
+    }, {
+        "name": "крутой",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "леденящий",
+        "filter": "fy fk epic hr"
+    }, {
+        "name": "лютый",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "магический",
+        "filter": "fy wow magic start"
+    }, {
+        "name": "эпический",
+        "filter": "fy fk wow epic start"
+    }, {
+		 "name": "зомби",
+        "filter": "hr start"
+    }, {
+        "name": "легендарный",
+        "filter": "fk fy wow legend rl start"
+    }, {
+        "name": "маститый",
+        "filter": "fy"
+    }, {
+        "name": "матерый",
+        "filter": "fy fk hr rl"
+    }, {
+        "name": "махровый",
+        "filter": "fy"
+    }, {
+        "name": "мертвецкий",
+        "filter": "fy magic hr"
+    }, {
+        "name": "могильный",
+        "filter": "fy hr"
+    }, {
+        "name": "могучий",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "молниеносный",
+        "filter": "fk fy"
+    }, {
+        "name": "мощный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "мучительный",
+        "filter": "fy hr"
+    }, {
+        "name": "наглый",
+        "filter": "fy rl start"
+    }, {
+        "name": "надежный",
+        "filter": "fy rl start"
+    }, {
+        "name": "настоящий",
+        "filter": "fy rl"
+    }, {
+        "name": "бывалый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "невероятный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "невиданный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "невообразимый",
+        "filter": "fk fy"
+    }, {
+        "name": "невыносимый",
+        "filter": "fy rl start"
+    }, {
+        "name": "незабываемый",
+        "filter": "fy rl"
+    }, {
+        "name": "незаурядный",
+        "filter": "fy rl"
+    }, {
+        "name": "неистовый",
+        "filter": "fy"
+    }, {
+        "name": "неистощимый",
+        "filter": "fy hr"
+    }, {
+        "name": "неистребимый",
+        "filter": "fy"
+    }, {
+        "name": "немаловажный",
+        "filter": "fy rl"
+    }, {
+        "name": "немалый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "немилосердный",
+        "filter": "fy rl"
+    }, {
+        "name": "немой",
+        "filter": "fy rl start"
+    }, {
+        "name": "ненасытный",
+        "filter": "fy rl"
+    }, {
+        "name": "необоримый",
+        "filter": "fy rl"
+    }, {
+        "name": "необузданный",
+        "filter": "fy"
+    }, {
+        "name": "необыкновенный",
+        "filter": "fy rl"
+    }, {
+        "name": "необычайный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "неограниченный",
+        "filter": "fy rl"
+    }, {
+        "name": "неодолимый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "неописуемый",
+        "filter": "fy rl"
+    }, {
+        "name": "неотразимый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "непобедимый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "неповторимый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "непогрешимый",
+        "filter": "fy rl start"
+    }, {
+        "name": "непоколебимый",
+        "filter": "fy rl start"
+    }, {
+        "name": "непостижимый",
+        "filter": "fy rl start"
+    }, {
+        "name": "непревзойденный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "непреодолимый",
+        "filter": "fy rl"
+    }, {
+        "name": "непререкаемый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "непримиримый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "непробиваемый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "непробудный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "несгибаемый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "несмолкаемый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "несмываемый",
+        "filter": "fy hr"
+    }, {
+        "name": "несокрушимый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "несравненный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "нестерпимый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "несусветный",
+        "filter": "fy"
+    }, {
+        "name": "неудержимый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "неукротимый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "неустанный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "неутешный",
+        "filter": "fy rl"
+    }, {
+        "name": "неутолимый",
+        "filter": "fy fk hr"
+    }, {
+        "name": "неутомимый",
+        "filter": "fy fk rl"
+    }, {
+        "name": "нечеловеческий",
+        "filter": "fy fk hr"
+    }, {
+        "name": "нещадный",
+        "filter": "fy hr"
+    }, {
+        "name": "образцовый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "ожесточенный",
+        "filter": "fy hr fk rl start"
+    }, {
+        "name": "ослепительный",
+        "filter": "fy hr fk start"
+    }, {
+        "name": "остервенелый",
+        "filter": "fy hr start"
+    }, {
+        "name": "острый",
+        "filter": "fy hr"
+    }, {
+        "name": "откровенный",
+        "filter": "fy rl start"
+    }, {
+        "name": "открытый",
+        "filter": "fy rl start"
+    }, {
+        "name": "отличный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "отменный",
+        "filter": "fy fk magic rl start"
+    }, {
+        "name": "отпетый",
+        "filter": "fy hr rl"
+    }, {
+        "name": "отчаянный",
+        "filter": "fy rl start"
+    }, {
+        "name": "ошеломляющий",
+        "filter": "fk fy"
+    }, {
+        "name": "первейший",
+        "filter": "fy fk rl"
+    }, {
+        "name": "первоклассный",
+        "filter": "fy rl start"
+    }, {
+        "name": "первый",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "плотный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "подлинный",
+        "filter": "fk fy"
+    }, {
+        "name": "полный",
+        "filter": "fk fy rl start"
+    }, {
+        "name": "поразительный",
+        "filter": "fk fy rl start"
+    }, {
+        "name": "порядочный",
+        "filter": "fy rl start"
+    }, {
+        "name": "последний",
+        "filter": "fy fk hr rl start"
+    }, {
+        "name": "потрясающий",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "преклонных лет",
+        "filter": "fy rl start"
+    }, {
+        "name": "преступный",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "приличный",
+        "filter": "fy rl start"
+    }, {
+        "name": "принципиальный",
+        "filter": "fy rl start"
+    }, {
+        "name": "прямой",
+        "filter": "fy rl start"
+    }, {
+        "name": "радикальный",
+        "filter": "fy fk hr rl start"
+    }, {
+        "name": "разгромный",
+        "filter": "fy fk hr"
+    }, {
+        "name": "раздирающий",
+        "filter": "fy fk hr start"
+    }, {
+        "name": "разительный",
+        "filter": "fk fy"
+    }, {
+        "name": "разящий",
+        "filter": "fy hr start"
+    }, {
+        "name": "райский",
+        "filter": "fy start"
+    }, {
+        "name": "ревностный",
+        "filter": "fy rl start"
+    }, {
+        "name": "революционный",
+        "filter": "fy rl start"
+    }, {
+        "name": "редкий",
+        "filter": "fy rl unusual start"
+    }, {
+        "name": "резкий",
+        "filter": "fy rl start"
+    }, {
+        "name": "решительный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "рьяный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "сатанинский",
+        "filter": "fy epic hr start"
+    }, {
+        "name": "сверхчеловеческий",
+        "filter": "fk fy"
+    }, {
+        "name": "сверхъестественный",
+        "filter": "fk fy start"
+    }, {
+        "name": "свирепый",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "сердитый",
+        "filter": "fk fy hr rl start"
+    }, {
+        "name": "серьезный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "сильный",
+        "filter": "fy fk rl start"
+    }, {
+        "name": "сказочный",
+        "filter": "fy start"
+    }, {
+        "name": "смертельноопасный",
+        "filter": "fy hr fk rl start"
+    }, {
+        "name": "бессмертный",
+        "filter": "fy hr fk start"
+    }, {
+        "name": "сногсшибательный",
+        "filter": "fy fk rl"
+    }, {
+        "name": "совершеннейший",
+        "filter": "fy fk magic start"
+    }, {
+        "name": "совершенный",
+        "filter": "fy rl fk unusual start"
+    }, {
+        "name": "сокрушительный",
+        "filter": "fy hr fk start"
+    }, {
+        "name": "солидный",
+        "filter": "fy rl fk start"
+    }, {
+        "name": "стальной",
+        "filter": "fy start"
+    }, {
+        "name": "стоический",
+        "filter": "fy hr rl"
+    }, {
+        "name": "стойкий",
+        "filter": "fy rl start"
+    }, {
+        "name": "страстный",
+        "filter": "fy rl start"
+    }, {
+        "name": "страшный",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "строгий",
+        "filter": "fy rl start"
+    }, {
+        "name": "строжайший",
+        "filter": "fy rl"
+    }, {
+        "name": "сумасшедший",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "суровый",
+        "filter": "fy rl start"
+    }, {
+        "name": "твердый",
+        "filter": "fy rl start"
+    }, {
+        "name": "триумфальный",
+        "filter": "fy epic rl"
+    }, {
+        "name": "убедительный",
+        "filter": "fy rl start"
+    }, {
+        "name": "убежденный",
+        "filter": "fy rl start"
+    }, {
+        "name": "убийственный",
+        "filter": "fy hr start"
+    }, {
+        "name": "уважаемый",
+        "filter": "fy rl start"
+    }, {
+        "name": "удивительный",
+        "filter": "fy rl start"
+    }, {
+        "name": "ужасающий",
+        "filter": "fy hr start"
+    }, {
+        "name": "ужасный",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "умопомрачительный",
+        "filter": "fy"
+    }, {
+        "name": "уничтожающий",
+        "filter": "fy fk hr start"
+    }, {
+        "name": "фанатический",
+        "filter": "fy fk hr rl"
+    }, {
+        "name": "фанатичный",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "фантастический",
+        "filter": "fy start"
+    }, {
+        "name": "феноменальный",
+        "filter": "fy rl start"
+    }, {
+        "name": "фундаментальный",
+        "filter": "fy rl"
+    }, {
+        "name": "хороший",
+        "filter": "fy rl start"
+    }, {
+        "name": "царский",
+        "filter": "fy start"
+    }, {
+        "name": "чистый",
+        "filter": "fy rl start"
+    }, {
+        "name": "чрезмерный",
+        "filter": "fy start"
+    }, {
+        "name": "чудовищный",
+        "filter": "fy rl start"
+    }, {
+        "name": "цепенящий",
+        "filter": "fy"
+    }, {
+        "name": "широкомасштабный",
+        "filter": "fy"
+    }, {
+        "name": "шумный",
+        "filter": "fy rl start"
+    }, {
+        "name": "щедрый",
+        "filter": "fy rl start"
+    }, {
+        "name": "щемящий",
+        "filter": "fy rl"
+    }, {
+        "name": "экстраординарный",
+        "filter": "fy rl start"
+    }, {
+        "name": "экстремальный",
+        "filter": "fy rl start"
+    }, {
+        "name": "ювелирный",
+        "filter": "fy"
+    }, {
+        "name": "ядреный",
+        "filter": "fy rl"
+    }, {
+        "name": "яркий",
+        "filter": "fy rl start"
+    }, {
+        "name": "яростный",
+        "filter": "fy rl start"
+    }, {
+        "name": "ярый",
+        "filter": "fy rl"
+    }, {
+        "name": "пухлый",
+        "filter": "fy rl start"
+    }, {
+        "name": "тощий",
+        "filter": "fy rl start"
+    }, {
+        "name": "длинный",
+        "filter": "fy rl start"
+    }, {
+        "name": "карликовый",
+        "filter": "fy rl start"
+    }, {
+        "name": "гигантский",
+        "filter": "fy rl start"
+    }, {
+        "name": "блестящий",
+        "filter": "fy rl start"
+    }, {
+        "name": "большой",
+        "filter": "fy rl start"
+    }, {
+        "name": "высокий",
+        "filter": "fy rl start"
+    }, {
+        "name": "высший",
+        "filter": "fy"
+    }, {
+        "name": "громадный",
+        "filter": "fy hr start"
+    }, {
+        "name": "дьявольский",
+        "filter": "fy hr start"
+    }, {
+        "name": "железный",
+        "filter": "fy start"
+    }, {
+        "name": "зеленый",
+        "filter": "fy start"
+    }, {
+        "name": "каменный",
+        "filter": "fy start"
+    }, {
+        "name": "крепкий",
+        "filter": "fy rl start"
+    }, {
+        "name": "кристальный",
+        "filter": "fy start"
+    }, {
+        "name": "круглый",
+        "filter": "fy start"
+    }, {
+        "name": "крупный",
+        "filter": "fy rl start"
+    }, {
+        "name": "живой",
+        "filter": "fy start"
+    }, {
+        "name": "мертвый",
+        "filter": "fy hr start"
+    }, {
+        "name": "огромный",
+        "filter": "fy rl start"
+    }, {
+        "name": "пламенный",
+        "filter": "fy hr start"
+    }, {
+        "name": "свинцовый",
+        "filter": "fy start"
+    }, {
+        "name": "седой",
+        "filter": "fy rl start"
+    }, {
+        "name": "слепой",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "титанический",
+        "filter": "fy"
+    }, {
+        "name": "тяжелый",
+        "filter": "fy rl start"
+    }, {
+        "name": "черный",
+        "filter": "fy hr start"
+    }, {
+        "name": "широкий",
+        "filter": "fy rl start"
+    }],
+    "race": [{
+        "name": "робот",
+        "filter": "fy fk start",
+        "desc": "Автомат, своими действиями производящий впечатление человеческой работы."
+    }, {
+        "name": "инопланетянин",
+        "filter": "fy fk start",
+        "desc": "Гипотетический или вымышленный представитель разумной внеземной цивилизации, обитатель иных планет"
+    }, {
+        "name": "человек",
+        "filter": "fy rl fk wow hr start",
+        "desc": "Живое разумное общественное существо, субъект общественно-исторической деятельности и культуры"
+    }, {
+        "name": "крысолюд",
+        "filter": "fy",
+        "desc": "Архетип человека-крысы в фэнтези и иногда научной фантастике"
+    }, {
+        "name": "эльф",
+        "filter": "fy wow start",
+        "desc": "Волшебный народ в германо-скандинавском и кельтском фольклоре. Известны также под названиями альвы и сиды"
+    }, {
+        "name": "орк",
+        "filter": "fy wow start",
+        "desc": "Сказочные существа в сказках народов Западной Европы и в современных произведениях жанра фэнтези."
+    }, {
+        "name": "гном",
+        "filter": "fy wow start",
+        "desc": "Гномы - подземные жители. Сказочные карлики из западноевропейского, в первую очередь германо-скандинавского, фольклора, частые герои сказок и легенд"
+    }, {
+        "name": "рептилоид",
+        "filter": "fy fk hr",
+        "desc": "Люди-рептилии — это существа, гуманоиды-рептилии, занимающие значительное место в мифологии различных народов, научно-фантастической литературе, современной уфологии и теориях заговора."
+    }, {
+        "name": "тролль",
+        "filter": "fy wow start",
+        "desc": "Тролли — высокие, долговязые и мускулистые. Внешне схожи с эльфами (из-за длинных ушей) и с орками (из-за внушительных клыков). Длинные руки, сильные ноги и быстрые рефлексы, присущие расе троллей, делают их идеальными охотниками."
+    }, {
+        "name": "фей",
+        "filter": "fy start",
+        "desc": "В кельтском и германском фольклоре — мифологическое существо метафизической природы, обладающее необъяснимыми, сверхъестественными способностями, ведущее скрытый образ жизни и при этом имеющее свойство вмешиваться в повседневную жизнь человека"
+    }, {
+        "name": "хоббит",
+        "filter": "fy tolkien start",
+        "desc": "Один из народов Средиземья в фэнтези-вселенной Дж. Р. Р. Толкина"
+    }, {
+        "name": "дворф",
+        "filter": "fy wow",
+        "desc": "Отважные дворфы — древний народ, происходящий от земельников, существ из живого камня, созданных титанами еще на заре мира."
+    }, {
+        "name": "гоблин",
+        "filter": "fy wow start",
+        "desc": "Гоблины - бывшие представители рода человеческого, перенесенные Темным Властителем в свой город Нодару и подвергнутые мучительным изменениям."
+    }, {
+        "name": "дреней",
+        "filter": "fy wow",
+        "desc": "Персонажи вселенной Warcraft. Дренеи являются ответвлением расы эредаров и на данный момент проживают на островах Лазурной Дымки "
+    }, {
+        "name": "демон",
+        "filter": "fy fk hr start",
+        "desc": "Собирательное название сверхъестественных существ или духов, занимающих промежуточное состояние между людьми и богами, и бывающих как хорошими, так и плохими."
+    }, {
+        "name": "бес",
+        "filter": "fy fk hr start",
+        "desc": "В славянской мифологии — зловредный дух, чёрт, дьявол, демон."
+    }, {
+        "name": "джинн",
+        "filter": "fy fk start",
+        "desc": "В исламе и в доисламскую эпоху — реальные духи, созданные из чистого бездымного пламени, не воспринимаемые ни одним из 5 основных чувств человека, живущие параллельно с людьми, но появившиеся раньше них и так же восприимчивые к вере/неверию в Бога."
+    }, {
+        "name": "таурен",
+        "filter": "fy wow",
+        "desc": "Это большие кочевые существа, живущие на зелёных равнинах Мулгора в Центральном Калимдоре. Это мощные, мускулистые гуманоиды, внешне похожие на быкообразных людей, у них есть копыта и рога."
+    }, {
+        "name": "кентавр",
+        "filter": "fy start",
+        "desc": "Крайне воинственная и дикая раса. Это существа с ногами и телом лошади и торсом, руками и головой человека."
+    }, {
+        "name": "великан",
+        "filter": "fy start",
+        "desc": "Раса огромных существ, живущих в Земном Краю."
+    }, {
+        "name": "карлик",
+        "filter": "fy fk start",
+        "desc": "Человек неестественно маленького роста."
+    }, {
+        "name": "огр",
+        "filter": "fy wow",
+        "desc": "В кельтской мифологии — безобразные и злобные великаны-людоеды, отдающие предпочтение маленьким детям."
+    }, {
+        "name": "наг",
+        "filter": "fy",
+        "desc": "Змееподобные мифические существа в индуизме и буддизме. Изображаются в виде змей с человеческим торсом и человеческой головой, укрытой сверху веером змеиных голов."
+    }, {
+        "name": "мурлок",
+        "filter": "fy wow",
+        "desc": "Земноводные рыбообразные существа, тем не менее, имеющие руки и ноги и поэтому относящиеся к гуманоидам, ведущие первобытный образ жизни. Наиболее распространены в южной части континента Восточных королевств."
+    }, {
+        "name": "нежить",
+        "filter": "fy wow",
+        "desc": "Смерть не стала спасением для многих людей, убитых Королем-личом, который стремился уничтожить все живое в Лордероне. Павших подняли, превратив их в нежить, сделали приспешниками Плети и заставили вести жуткую войну против всех и всего, чем они раньше дорожили."
+    }, {
+        "name": "свинолюд",
+        "filter": "fy",
+        "desc": "Одна из немногих разновидностей мутантов, неотличимых от людей даже при тщательном осмотре. Свинолюди произошли от животных, приспособленных генной инженерией для выращивания органов на пересадку."
+    }, {
+        "name": "дракон",
+        "filter": "fy start",
+        "desc": "Сказочное чудовище в виде крылатого огнедышащего змея"
+    }, {
+        "name": "динозавр",
+        "filter": "fy fk start",
+        "desc": "Вымершее пресмыкающееся крупных размеров"
+    }, {
+        "name": "кот",
+        "filter": "fy an start",
+        "desc": "Кот это самец кошки."
+    }, {
+        "name": "пес",
+        "filter": "fy an start",
+        "desc": "Домашнее животное, одно из наиболее популярных «животных-компаньонов»"
+    }, {
+        "name": "кролик",
+        "filter": "fy an start",
+        "desc": "Кролики это не только ценный мех, но и 3-4 килограмма диетического, легкоусвояемого мяса. ©"
+    }, {
+        "name": "минотавр",
+        "filter": "fy hr start",
+        "desc": "По греческому преданию, чудовище с телом человека и головой быка, происшедшее от неестественной любви Пасифаи, жены царя Миноса, к посланному Посейдоном (в некоторых источниках Зевсом) быку."
+    }, {
+        "name": "циклоп",
+        "filter": "fy hr start",
+        "desc": "В древнегреческой мифологии: одноглазый великан."
+    }, {
+        "name": "мух",
+        "filter": "fy hr an start",
+        "desc": "Наиболее популярное домашнее животное у человеков, жаль только, что живёт недолго."
+    }, {
+        "name": "гомункул",
+        "filter": "fy hr start",
+        "desc": "В представлении средневековых алхимиков, существо, подобное человеку, которое можно получить искусственным путём"
+    }, {
+       "name": "эвок",
+        "filter": "sw",
+        "desc": "Раса маленьких мохнатых двуногих существ с лесистого спутника Эндора, отличающихся любопытством и изобретательностью"
+    }, {
+        "name": "ситх",
+        "filter": "sw",
+        "desc": "Орден чувствительных к Силе, использующая Тёмную сторону Силы. Изначально термин «сит» применялся к расе с Коррибана, однако позже их поработила группа тёмных джедаев, изгнанных из Ордена"
+    }, {
+        "name": "Аквалиш",
+        "filter": "sw",
+        "desc": "Клыкастые двуногие существа с планеты Андо, сочетающие в себе признаки паукообразных и водных млекопитающих."
+    }, {
+        "name": "Аманианец",
+        "filter": "sw",
+        "desc": "Раса примитивных существ с планеты Маридун. У них был принят клановый строй общества."
+    }, {
+        "name": "Анзат",
+        "filter": "sw",
+        "desc": "Опасная и загадочная чувствительная к Силе близкая к людям раса. Они отличаются наличием длинных хоботков, раскручивающихся от щек и способные высасывать мозг жертв через нос."
+    }, {
+        "name": "Арахнор",
+        "filter": "sw",
+        "desc": "Арахнорами называли гигантских паукообразных, которые обитали во влажных, заросших грибами лесах планеты Арзид."
+    }, {
+        "name": "Арканианец",
+        "filter": "sw",
+        "desc": "Раса разумных гуманоидов с планеты Аркания."
+    }, {
+        "name": "Арконец",
+        "filter": "sw",
+        "desc": "Не имеющие чешуи пресмыкающиеся, гуманоиды. Их родной мир — планета Кона в системе Теке-Ро. Арконцы, несмотря на большой размер глаз, плохо видят."
+    }, {
+        "name": "Аскаджиец",
+        "filter": "sw",
+        "desc": "Гуманоидная раса с планеты Аскадж."
+    }, {
+        "name": "Ассемблер",
+        "filter": "sw",
+        "desc": "Это огромное паукообразное создание с круглым большим телом и шестью хитиновыми лапами. Живет он в гигантской трубообразной паутине, которая перемещается в межпланетном пространстве, а гостей принимает в главном помещении, подстраивая состав атмосферы к их потребностям. А еще это язык программирования."
+    }, {
+        "name": "банта",
+        "filter": "sw",
+        "desc": "Крупное травоядное животное с большими изогнутыми рогами и толстой волосатой шкурой, неприхотливое, способное выживать практически в любом климате."
+    }, {
+        "name": "барабел",
+        "filter": "sw",
+        "desc": "Разумные холоднокровные пресмыкающиеся с планеты Бараб I. Барабелы - прирожденные охотники: ловкие, сноровистые и сильные."
+    }, {
+        "name": "бимм",
+        "filter": "sw",
+        "desc": "Небольшие миролюбивые гуманоиды с планеты Биммисаари. Биммы делятся на две разновидности: близкую к людям и покрытую шерстью."
+    }, {
+        "name": "барабел",
+        "filter": "sw",
+        "desc": "Разумные холоднокровные пресмыкающиеся с планеты Бараб I. Барабелы - прирожденные охотники: ловкие, сноровистые и сильные."
+    }, {
+        "name": "бит",
+        "filter": "sw",
+        "desc": "Высокоразвитая гуманоидная раса, результат многолетнего улучшения породы. Их удлиненный череп предназначен для того, чтобы вмещать гипертрофированный мозг."
+    }, {
+        "name": "ботан",
+        "filter": "sw",
+        "desc": "Покрытые мехом гуманоиды ростом примерно 1,5 метра с планеты Ботавуи и нескольких колониальных миров. Физический облик ботанов имел схожие черты с собаками, лошадьми и кошками."
+    }, {
+        "name": "вампа",
+        "filter": "sw",
+        "desc": "Зловещие плотоядные приматы, обитающие на холодной планете Хот. Они были полуразумной расой хищников, порой достигающих трехметровой высоты."
+    }, {
+        "name": "верпин",
+        "filter": "sw",
+        "desc": "Разумная инсектоидная раса родом с астероидов Роше."
+    }, {
+        "name": "виквай",
+        "filter": "sw",
+        "desc": "Раса гуманоидов с планеты Шрилуур во Внешнем Кольце, располагавшейся вблизи Пространства хаттов."
+    }],
+    "position": [{
+        "name": "ученый",
+        "filter": "fy rl start"
+    }, {
+        "name": "военный",
+        "filter": "fy rl start"
+    }, {
+        "name": "художник",
+        "filter": "fy rl start"
+    }, {
+        "name": "программист",
+        "filter": "fy rl start"
+    }, {
+        "name": "бард",
+        "filter": "fy start"
+    }, {
+        "name": "актер",
+        "filter": "fy rl start"
+    }, {
+        "name": "сиделка",
+        "filter": "fy rl start"
+    }, {
+        "name": "супергерой",
+        "filter": "fy start"
+    }, {
+        "name": "журналист",
+        "filter": "fy rl start"
+    }, {
+        "name": "безработный",
+        "filter": "fy rl start"
+    }, {
+        "name": "адвокат",
+        "filter": "fy rl start"
+    }, {
+        "name": "генеральный секретарь",
+        "filter": "fy rl start"
+    }, {
+        "name": "делопроизводитель",
+        "filter": "fy rl start"
+    }, {
+        "name": "детектив",
+        "filter": "fy rl start"
+    }, {
+        "name": "дипломат",
+        "filter": "fy rl start"
+    }, {
+        "name": "конвоир",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "милиционер",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "министр",
+        "filter": "fy rl start"
+    }, {
+        "name": "нотариус",
+        "filter": "fy rl start"
+    }, {
+        "name": "охранник",
+        "filter": "fy rl start"
+    }, {
+        "name": "полицейский",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "прокурор",
+        "filter": "fy rl start"
+    }, {
+        "name": "следователь",
+        "filter": "fy rl start"
+    }, {
+        "name": "судья",
+        "filter": "fy rl start"
+    }, {
+        "name": "телохранитель",
+        "filter": "fy rl start"
+    }, {
+        "name": "тюремщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "юрист",
+        "filter": "fy rl start"
+    }, {
+        "name": "верстальщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "выпускающий редактор",
+        "filter": "fy rl start"
+    }, {
+        "name": "издатель",
+        "filter": "fy rl start"
+    }, {
+        "name": "редактор",
+        "filter": "fy rl start"
+    }, {
+        "name": "фальцовщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "HTML-верстальщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "web-дизайнер",
+        "filter": "fy rl start"
+    }, {
+        "name": "администратор сайта",
+        "filter": "fy rl start"
+    }, {
+        "name": "блогер",
+        "filter": "fy rl start"
+    }, {
+        "name": "диктор",
+        "filter": "fy rl start"
+    }, {
+        "name": "кодер",
+        "filter": "fy rl start"
+    }, {
+        "name": "контент-менеджер",
+        "filter": "fy rl start"
+    }, {
+        "name": "копирайтер",
+        "filter": "fy rl start"
+    }, {
+        "name": "машинистка",
+        "filter": "fy rl start"
+    }, {
+        "name": "программист",
+        "filter": "fy rl start"
+    }, {
+        "name": "радист",
+        "filter": "fy rl start"
+    }, {
+        "name": "системный администратор",
+        "filter": "fy rl start"
+    }, {
+        "name": "журналист",
+        "filter": "fy rl start"
+    }, {
+        "name": "тестировщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "косметолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "лаборант",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "логопед",
+        "filter": "fy rl start"
+    }, {
+        "name": "массажист",
+        "filter": "fy rl start"
+    }, {
+        "name": "медестра",
+        "filter": "fy rl start"
+    }, {
+        "name": "окулист",
+        "filter": "fy rl start"
+    }, {
+        "name": "педиатр",
+        "filter": "fy rl start"
+    }, {
+        "name": "психиатр",
+        "filter": "fy rl start"
+    }, {
+        "name": "реаниматолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "сексолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "стоматолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "терапевт",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "травматолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "уролог",
+        "filter": "fy rl start"
+    }, {
+        "name": "аптекарь",
+        "filter": "fy rl start"
+    }, {
+        "name": "фельдшер",
+        "filter": "fy rl start"
+    }, {
+        "name": "хирург",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "эндокринолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "археолог",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "архивариус",
+        "filter": "fy rl"
+    }, {
+        "name": "астроном",
+        "filter": "fy rl start"
+    }, {
+        "name": "библиограф",
+        "filter": "fy rl start"
+    }, {
+        "name": "биоинженер",
+        "filter": "fy hr rl"
+    }, {
+        "name": "биолог",
+        "filter": "fy rl"
+    }, {
+        "name": "биофизик",
+        "filter": "fy hr rl"
+    }, {
+        "name": "биохимик",
+        "filter": "fy rl"
+    }, {
+        "name": "ботаник",
+        "filter": "fy rl start"
+    }, {
+        "name": "востоковед",
+        "filter": "fy rl start"
+    }, {
+        "name": "генетик",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "гидролог",
+        "filter": "fy rl start"
+    }, {
+        "name": "египтолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "зоолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "изобретатель",
+        "filter": "fy rl start"
+    }, {
+        "name": "искусствовед",
+        "filter": "fy rl start"
+    }, {
+        "name": "историк",
+        "filter": "fy rl start"
+    }, {
+        "name": "ихтиолог",
+        "filter": "fy rl"
+    }, {
+        "name": "конструктор",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "культуролог",
+        "filter": "fy rl start"
+    }, {
+        "name": "математик",
+        "filter": "fy rl start"
+    }, {
+        "name": "метеоролог",
+        "filter": "fy rl start"
+    }, {
+        "name": "микробиолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "нанотехнолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "орнитолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "палеонтолог",
+        "filter": "fy rl hr start"
+    }, {
+        "name": "политолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "религиовед",
+        "filter": "fy rl start"
+    }, {
+        "name": "физик",
+        "filter": "fy rl start"
+    }, {
+        "name": "философ",
+        "filter": "fy rl start"
+    }, {
+        "name": "химик",
+        "filter": "fy rl start"
+    }, {
+        "name": "эколог",
+        "filter": "fy rl start"
+    }, {
+        "name": "воспитатель",
+        "filter": "fy rl start"
+    }, {
+        "name": "логопед",
+        "filter": "fy rl start"
+    }, {
+        "name": "педагог",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "преподаватель",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "психолог",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "ректор",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "учитель",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "булочник",
+        "filter": "fy rl start"
+    }, {
+        "name": "винодел",
+        "filter": "fy rl start"
+    }, {
+        "name": "кондитер",
+        "filter": "fy rl start"
+    }, {
+        "name": "месильщик",
+        "filter": "fy hr rl"
+    }, {
+        "name": "мясник",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "пекарь",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "повар",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "вышивальщица",
+        "filter": "fy rl start"
+    }, {
+        "name": "гид-переводчик",
+        "filter": "fy rl start"
+    }, {
+        "name": "дегустатор",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "кинолог",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "лингвист",
+        "filter": "fy rl start"
+    }, {
+        "name": "переводчик",
+        "filter": "fy rl start"
+    }, {
+        "name": "альпинист",
+        "filter": "fy rl start"
+    }, {
+        "name": "реставратор",
+        "filter": "fy rl start"
+    }, {
+        "name": "референт",
+        "filter": "fy rl start"
+    }, {
+        "name": "священнослужитель",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "секретарь",
+        "filter": "fy rl start"
+    }, {
+        "name": "дорожный инспектор",
+        "filter": "fy rl start"
+    }, {
+        "name": "пожарный",
+        "filter": "fy rl start"
+    }, {
+        "name": "агроном",
+        "filter": "fy rl start"
+    }, {
+        "name": "ветеринар",
+        "filter": "fy rl start"
+    }, {
+        "name": "доярка",
+        "filter": "fy rl start"
+    }, {
+        "name": "комбайнер",
+        "filter": "fy rl start"
+    }, {
+        "name": "охотник",
+        "filter": "fy hr rl wow start"
+    }, {
+        "name": "пастух",
+        "filter": "fy rl start"
+    }, {
+        "name": "пчеловод",
+        "filter": "fy rl start"
+    }, {
+        "name": "скотник",
+        "filter": "fy rl start"
+    }, {
+        "name": "специалист по стрижке овец",
+        "filter": "fy rl start"
+    }, {
+        "name": "тракторист",
+        "filter": "fy rl start"
+    }, {
+        "name": "фермер",
+        "filter": "fy rl start"
+    }, {
+        "name": "рыбак",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "страховой агент",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "администратор",
+        "filter": "fy rl start"
+    }, {
+        "name": "бармен",
+        "filter": "fy rl start"
+    }, {
+        "name": "библиотекарь",
+        "filter": "fyv start"
+    }, {
+        "name": "визажист",
+        "filter": "fy rl start"
+    }, {
+        "name": "грузчик",
+        "filter": "fy rl start"
+    }, {
+        "name": "дворник",
+        "filter": "fy rl start"
+    }, {
+        "name": "кладовщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "консультант телефона доверия",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "маникюрша",
+        "filter": "fy rl start"
+    }, {
+        "name": "мусорщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "телефонистка",
+        "filter": "fy rl start"
+    }, {
+        "name": "официант",
+        "filter": "fy rl start"
+    }, {
+        "name": "парикмахер",
+        "filter": "fy rl start"
+    }, {
+        "name": "портье",
+        "filter": "fy rl start"
+    }, {
+        "name": "почтальон",
+        "filter": "fy rl start"
+    }, {
+        "name": "садовник",
+        "filter": "fy rl start"
+    }, {
+        "name": "сапожник",
+        "filter": "fy rl start"
+    }, {
+        "name": "уборщица",
+        "filter": "fy rl start"
+    }, {
+        "name": "упаковщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "флорист",
+        "filter": "fy rl start"
+    }, {
+        "name": "цветочница",
+        "filter": "fy rl start"
+    }, {
+        "name": "шеф-повар",
+        "filter": "fy rl start"
+    }, {
+        "name": "спортсмен",
+        "filter": "fy rl start"
+    }, {
+        "name": "актер",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "аниматор",
+        "filter": "fy rl start"
+    }, {
+        "name": "артист цирка",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "архитектор",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "балетмейстер",
+        "filter": "fy rl start"
+    }, {
+        "name": "диджей",
+        "filter": "fy rl start"
+    }, {
+        "name": "дизайнер",
+        "filter": "fy rl start"
+    }, {
+        "name": "дирижер",
+        "filter": "fy rl start"
+    }, {
+        "name": "журналист",
+        "filter": "fy rl start"
+    }, {
+        "name": "закройщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "звукооператор",
+        "filter": "fy rl start"
+    }, {
+        "name": "звукорежиссер",
+        "filter": "fy rl start"
+    }, {
+        "name": "иллюстратор",
+        "filter": "fy rl start"
+    }, {
+        "name": "имиджмейкер",
+        "filter": "fy rl start"
+    }, {
+        "name": "каскадер",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "киномеханик",
+        "filter": "fy rl start"
+    }, {
+        "name": "кинооператор",
+        "filter": "fy rl start"
+    }, {
+        "name": "кинорежиссер",
+        "filter": "fy rl start"
+    }, {
+        "name": "композитор",
+        "filter": "fy rl start"
+    }, {
+        "name": "критик",
+        "filter": "fy rl start"
+    }, {
+        "name": "ландшафтный дизайнер",
+        "filter": "fy rl start"
+    }, {
+        "name": "манекенщица",
+        "filter": "fy rl start"
+    }, {
+        "name": "модель",
+        "filter": "fy rl start"
+    }, {
+        "name": "музыкант",
+        "filter": "fy rl start"
+    }, {
+        "name": "мультипликатор",
+        "filter": "fy rl start"
+    }, {
+        "name": "писатель",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "портной",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "продюсер",
+        "filter": "fy rl start"
+    }, {
+        "name": "режиссер",
+        "filter": "fy rl start"
+    }, {
+        "name": "скульптор",
+        "filter": "fy rl start"
+    }, {
+        "name": "спичрайтер",
+        "filter": "fy rl start"
+    }, {
+        "name": "стилист",
+        "filter": "fy rl start"
+    }, {
+        "name": "сценарист",
+        "filter": "fy rl start"
+    }, {
+        "name": "танцор балета",
+        "filter": "fy rl start"
+    }, {
+        "name": "татуировщик",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "технический писатель",
+        "filter": "fy rl start"
+    }, {
+        "name": "фотограф",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "хореограф",
+        "filter": "fy rl start"
+    }, {
+        "name": "художник",
+        "filter": "fy rl start"
+    }, {
+        "name": "ювелир",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "трюкач",
+        "filter": "fy rl start"
+    }, {
+        "name": "автогонщик",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "автомеханик",
+        "filter": "fy rl start"
+    }, {
+        "name": "архитектор-проектировщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "бондарь",
+        "filter": "fy rl"
+    }, {
+        "name": "бульдозерист",
+        "filter": "fy rl start"
+    }, {
+        "name": "вальцовщик стана горячей прокатки",
+        "filter": "fy rl start"
+    }, {
+        "name": "водолаз",
+        "filter": "fy rl start"
+    }, {
+        "name": "геолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "горняк",
+        "filter": "fy rl start"
+    }, {
+        "name": "драпировщик",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "инженер",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "испытатель",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "каменщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "картограф",
+        "filter": "fy rl start"
+    }, {
+        "name": "крановщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "краснодеревщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "кровельщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "литейщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "маляр",
+        "filter": "fy rl start"
+    }, {
+        "name": "маркшейдер",
+        "filter": "fy rl start"
+    }, {
+        "name": "мастер",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "машинист",
+        "filter": "fy rl start"
+    }, {
+        "name": "металлург",
+        "filter": "fy rl start"
+    }, {
+        "name": "монтажник",
+        "filter": "fy rl start"
+    }, {
+        "name": "моторист",
+        "filter": "fy rl start"
+    }, {
+        "name": "наладчик",
+        "filter": "fy rl start"
+    }, {
+        "name": "облицовщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "отделочник",
+        "filter": "fy rl start"
+    }, {
+        "name": "плотник",
+        "filter": "fy rl start"
+    }, {
+        "name": "прораб",
+        "filter": "fy rl start"
+    }, {
+        "name": "проходчик",
+        "filter": "fy rl start"
+    }, {
+        "name": "радиомеханик",
+        "filter": "fy rl start"
+    }, {
+        "name": "ремонтник",
+        "filter": "fy rl start"
+    }, {
+        "name": "рихтовщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "сантехник",
+        "filter": "fy rl start"
+    }, {
+        "name": "сварщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "слесарь",
+        "filter": "fy start"
+    }, {
+        "name": "сталевар",
+        "filter": "fy rl start"
+    }, {
+        "name": "столяр",
+        "filter": "fy rl start"
+    }, {
+        "name": "строитель",
+        "filter": "fy rl start"
+    }, {
+        "name": "технарь",
+        "filter": "fy rl start"
+    }, {
+        "name": "технолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "токарь",
+        "filter": "fy rl start"
+    }, {
+        "name": "фрезеровщик",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "холодильщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "шахтер",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "швея",
+        "filter": "fy rl start wow"
+    }, {
+        "name": "шлифовщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "штукатур",
+        "filter": "fy rl start"
+    }, {
+        "name": "электрик",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "электромонтажник",
+        "filter": "fy rl start"
+    }, {
+        "name": "энергетик",
+        "filter": "fy rl start"
+    }, {
+        "name": "авиадиспетчер",
+        "filter": "fy rl start"
+    }, {
+        "name": "пилот",
+        "filter": "fy rl start"
+    }, {
+        "name": "водитель",
+        "filter": "fy rl start"
+    }, {
+        "name": "воздухоплаватель",
+        "filter": "fy rl start"
+    }, {
+        "name": "диспетчер",
+        "filter": "fy rl start"
+    }, {
+        "name": "капитан",
+        "filter": "fy rl start"
+    }, {
+        "name": "космонавт",
+        "filter": "fy rl start"
+    }, {
+        "name": "курьер",
+        "filter": "fy rl start"
+    }, {
+        "name": "летчик",
+        "filter": "fy rl start"
+    }, {
+        "name": "лоцман",
+        "filter": "fy rl start"
+    }, {
+        "name": "моряк",
+        "filter": "fy rl start"
+    }, {
+        "name": "проводник",
+        "filter": "fy rl start"
+    }, {
+        "name": "слесарь-механик",
+        "filter": "fy rl start"
+    }, {
+        "name": "стрелочник",
+        "filter": "fy rl start"
+    }, {
+        "name": "стюардесса",
+        "filter": "fy rl start"
+    }, {
+        "name": "таксист",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "штурман",
+        "filter": "fy rl start"
+    }, {
+        "name": "экспедитор",
+        "filter": "fy rl start"
+    }, {
+        "name": "продакт-менеджер",
+        "filter": "fy rl start"
+    }, {
+        "name": "аудитор",
+        "filter": "fy rl start"
+    }, {
+        "name": "банкир",
+        "filter": "fy rl start"
+    }, {
+        "name": "бизнес-тренер",
+        "filter": "fy rl start"
+    }, {
+        "name": "кассир",
+        "filter": "fy rl start"
+    }, {
+        "name": "брокер",
+        "filter": "fy rl start"
+    }, {
+        "name": "бухгалтер",
+        "filter": "fy rl start"
+    }, {
+        "name": "дистрибутор",
+        "filter": "fy rl start"
+    }, {
+        "name": "заведующий складом",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "инкассатор",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "кассир",
+        "filter": "fy rl start"
+    }, {
+        "name": "кризис-менеджер",
+        "filter": "fy rl start"
+    }, {
+        "name": "лоббист",
+        "filter": "fy rl start"
+    }, {
+        "name": "логист",
+        "filter": "fy rl start"
+    }, {
+        "name": "маклер",
+        "filter": "fy rl start"
+    }, {
+        "name": "маркетолог",
+        "filter": "fy rl start"
+    }, {
+        "name": "медиа-байер",
+        "filter": "fy rl"
+    }, {
+        "name": "менеджер",
+        "filter": "fy rl start"
+    }, {
+        "name": "PR менеджер",
+        "filter": "fy rl start"
+    }, {
+        "name": "менеджер по логистике",
+        "filter": "fy rl start"
+    }, {
+        "name": "менеджер по персоналу",
+        "filter": "fy rl start"
+    }, {
+        "name": "менеджер по продажам",
+        "filter": "fy rl start"
+    }, {
+        "name": "мерчендайзер",
+        "filter": "fy rl start"
+    }, {
+        "name": "налоговый инспектор",
+        "filter": "fy rl start"
+    }, {
+        "name": "офис-менеджер",
+        "filter": "fy rl start"
+    }, {
+        "name": "оценщик",
+        "filter": "fy rl start"
+    }, {
+        "name": "продавец",
+        "filter": "fy rl start"
+    }, {
+        "name": "промоутер",
+        "filter": "fy rl start"
+    }, {
+        "name": "риелтор",
+        "filter": "fy rl start"
+    }, {
+        "name": "сметчик",
+        "filter": "fy rl start"
+    }, {
+        "name": "снабженец",
+        "filter": "fy rl start"
+    }, {
+        "name": "специалист по ВЭД",
+        "filter": "fy rl start"
+    }, {
+        "name": "статистик",
+        "filter": "fy rl start"
+    }, {
+        "name": "страховой агент",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "супервайзер",
+        "filter": "fy rl"
+    }, {
+        "name": "товаровед",
+        "filter": "fy rl start"
+    }, {
+        "name": "торговый представитель",
+        "filter": "fy rl start"
+    }, {
+        "name": "трейдер",
+        "filter": "fy rl"
+    }, {
+        "name": "финансист",
+        "filter": "fy rl start"
+    }, {
+        "name": "экономист",
+        "filter": "fy rl start"
+    }, {
+        "name": "военный",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "разведчик",
+        "filter": "fy hr rl start"
+    }, {
+        "name": "богатырь",
+        "filter": "fy start"
+    }, {
+        "name": "варвар",
+        "filter": "fy hr start"
+    }, {
+        "name": "алхимик",
+        "filter": "fy wow start"
+    }, {
+        "name": "кузнец",
+        "filter": "fy wow start"
+    }, {
+        "name": "зачаровыватель",
+        "filter": "fy wow"
+    }, {
+        "name": "кожевник",
+        "filter": "fy wow start"
+    }, {
+        "name": "травник",
+        "filter": "fy wow"
+    }, {
+        "name": "свежеватель",
+        "filter": "fy wow"
+    }, {
+        "name": "воин",
+        "filter": "fy fk wow start"
+    }, {
+        "name": "шаман",
+        "filter": "fy wow start"
+    }, {
+        "name": "монах",
+        "filter": "fy rl wow start"
+    }, {
+        "name": "самурай",
+        "filter": "fy rl start"
+    }, {
+        "name": "варлок",
+        "filter": "fy wow"
+    }, {
+        "name": "убийца",
+        "filter": "fy hr wow start sw"
+    }, {
+        "name": "джедай",
+        "filter": "sw"
+    }]
+}

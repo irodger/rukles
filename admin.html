@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <title>Minimum Bootstrap HTML Skeleton</title>
+<!--  -->
+<style>
+body {
+  background: url('http://img04.deviantart.net/64a6/i/2013/326/4/b/landscapes_nature_wood_fog_darkness_background_by_cyanidhora-d6v5v1e.jpg') no-repeat 0 0;
+  background-size: 100%;
+}
+.login {
+    margin-top: 10%;
+}
+.form {
+    padding: 30px;
+    width: 350px;
+    background: #ffffff;
+    margin: 50px auto;
+    box-shadow: 0 0 15px -5px #000;
+    border-radius: 20px;
+    border: 10px solid #333;
+}
+.form figure {
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px;
+    background: url('https://pp.vk.me/c629510/v629510858/2bf5c/o0NpQJck6rs.jpg') no-repeat 0 0;
+    background-size: contain;
+}
+.form-control {
+  width: 35%;
+}
+.form-control#log {
+  text-align: left;
+  float: left;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  margin-left: 15%;
+}
+.form-control#pass {
+  text-align: left;
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+.form-control:focus {
+  border-color: #ccc;  
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  border-bottom: #44A59B 1px solid;
+}
+button {
+  margin-left: 42%; 
+}
+.form-group {
+   position: relative;
+}
+label.abs {
+	position: absolute;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 7px;
+    transition: all 0.15s ease-in-out;
+}
+label.abs.log {
+    left: 19%;
+}
+label.abs.pass {
+    right: 19%;
+}
+.form-control:focus+label, .form-control+label.nonull {
+    top: -10px;
+  	background: #fff;
+    color:#ccc;
+    font-size: 90%;
+}
+</style>
+
+</head>
+
+<body>
+  <div class="login">
+    <div class="container">
+      <div class="row">
+        <div class="form">
+          	<form role="form">
+              <figure title="Руклес"></figure>
+             <div class="form-group">
+               <input type="text" class="form-control" id="log">
+               <label for="log" class="abs log">Login</label>
+               <input type="password" class="form-control" id="pass">
+               <label for="pass" class="abs pass">Password</label>
+             </div>
+             <button type="submit" class="btn btn-default">Enter</button>
+            </form>
+        </div>
+      </div>
+  </div>
+</div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+$('input').on('input change', function() {
+  if ( $(this).val() !== "") {
+	$(this).next().addClass('nonull');
+  } else {
+    $(this).next().removeClass('nonull');
+  }
+});
+</script>
+</body>
+</html>

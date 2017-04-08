@@ -1,54 +1,45 @@
-// Подтягиваем базу характеристик из json, пока не подтянется, ждем
-$.when($.getJSON('js/bd.json?ver=1', (data) => {
-    'use strict';
-    var itemsID = 0,
-        bodyItems = [],
-        bodyObj = {},
-        racesItems = [],
-        raceObj = {},
-        hobbyItems = [],
-        hobbyObj = {},
-        setupFields = $('.setup-inputs'),
-        bodyField = setupFields.find('ul').filter('.body'),
-        raceField = setupFields.find('ul').filter('.race'),
-        hobbyField = setupFields.find('ul').filter('.position');
+'use strict';
 
-    // Кладем каждый элемент из ноды body в инпут
-    $.each(data.body, (key, val) => {
-        itemsID++;
-        bodyItems.push(`<li class="${val.filter}"><input type="checkbox" id="b${itemsID}" value="${val.name}" checked> <label for="b${itemsID}">${val.name}</label></li>`);
+var bodyObj = [],
+    raceObj = [],
+    hobbyObj = [],
+    Arr = [];
 
-        bodyObj.id = itemsID;
-        bodyObj.filter = val.filter;
-        bodyObj.name = val.name;
-    });
+// Подтягиваем базу характеристик из json
+$.when(
+    $.getJSON('js/bd.json?ver=1', (data) => {
+        'use strict';
 
-    // Кладем каждый элемент из ноды race в инпут
-    $.each(data.race, (key, val) => {
-        itemsID++;
-        racesItems.push(`<li class="${val.filter}"><input type="checkbox" id="c${itemsID}" value="${val.name}" checked> <label for="c${itemsID}" title="${val.desc}">${val.name}</label></li>`);
 
-        raceObj.id = itemsID;
-        raceObj.filter = val.filter;
-        raceObj.name = val.name;
-    });
+        $.each(data.body, (key, val) => {
+            Arr = val.filter.split(" ");
 
-    // Кладем каждый элемент из ноды position в инпут
-    $.each(data.position, (key, val) => {
-        itemsID++;
-        hobbyItems.push(`<li class="${val.filter}"><input type="checkbox" id="d${itemsID}" value="${val.name}" checked> <label for="d${itemsID}">${val.name}</label></li>`);
+            bodyObj.push({
+                filters: Arr,
+                name: val.name
+            });
+        });
 
-        hobbyObj.id = itemsID;
-        hobbyObj.filter = val.filter;
-        hobbyObj.name = val.name;
-    });
+        $.each(data.race, (key, val) => {
+            Arr = val.filter.split(" ");
 
-    bodyField.html(bodyItems.join("")); // Кладем Body в столбик Форма
-    raceField.html(racesItems.join("")); // Кладем Race в столбик Раса
-    hobbyField.html(hobbyItems.join("")); // Кладем Position в столбик Профессия
+            raceObj.push({
+                filters: Arr,
+                name: val.name
+            });
+        });
 
-})).then(() => {
-    'use strict';
+        $.each(data.position, (key, val) => {
+            Arr = val.filter.split(" ");
+
+            hobbyObj.push({
+                filters: Arr,
+                name: val.name
+            });
+        });
+
+    })
+).then(() => {
     let dt = new Date(),
         thisDay = dt.getDate(),
         thisMonth = dt.getMonth(),
@@ -127,36 +118,6 @@ $.when($.getJSON('js/bd.json?ver=1', (data) => {
             }
         },
 
-        // Notification
-        notifyMe = () => {
-            // Проверка поддерживаемости браузером уведомлений
-            if (!("Notification" in window)) {
-                console.log("Браузер не поддерживает уведомления, а могли бы идти прикольные напоминалки");
-            } else if (Notification.permission === "granted") {
-                // Если разрешено то создаем уведомлений
-                let options = {
-                    tag: "rkls",
-                    body: "Не хочешь порисовать героев Варкрафта?",
-                    iconUrl: "http://rukles.ru/favicon.ico",
-                    icon: "http://rukles.ru/favicon.ico"
-                };
-                let notification = new Notification("Rukles", options);
-
-                notification.onclick = function () {
-                    notification.close();
-                    location.replace("http://rukles.ru/?f=wow");
-                };
-
-            } else if (Notification.permission !== 'denied') {
-                Notification.requestPermission(function (permission) {
-                    // Если пользователь разрешил, то создаем уведомление
-                    if (permission === "granted") {
-                        let notification = new Notification("Hi there!");
-                    }
-                });
-            }
-        },
-
         // Парсим адрес
         getUrlParameter = (sParam) => {
             let sURLVariables = window.location.search.substring(1).split('&'),
@@ -175,35 +136,16 @@ $.when($.getJSON('js/bd.json?ver=1', (data) => {
         },
 
         filterUrl = getUrlParameter('f'), // Предустановки в зависимости от Урла url/?f=sw - starwars (как класс фильтра)
-        chkOnStart = $('.filters>li.active').attr('class'),
-        chosClass = "start",
-        po_l = $('.position').find(":checkbox").length,
-        tp_l = $('.race').find(":checkbox").length,
-        bd_l = $('.body').find(":checkbox").length,
-        settingsList = $('.setup-inputs'),
-        settingsBoxes = settingsList.find(':checkbox'),
         tutorial = $('.tutorial'),
         nextTutorial = tutorial.find('.next-tut'),
         closeTutorial = tutorial.find('.close-tut'),
         position = $('.position'),
-        positionChecked = position.find(":checked"),
-        race = $('.race'),
-        body = $('.body'),
-        btnRls = $('.btn.rukles'),
-        btnBlot = $('.btn.blots'),
+        btnRls = $('.rukles'),
+        btnBlot = $('.blots'),
         blotParentContainer = $('.blot-cont'),
         blotContainer = blotParentContainer.find('.blot'),
         result = $('#result'),
-        res_info = $('.inhelp'),
-        howmuch = po_l * tp_l * bd_l,
-        p_l,
-        t_t,
-        t_l,
-        b_l,
-        res_onload,
         getNumberFormat,
-        activeFilter,
-        getRandomHero,
         rotateBlots,
         hash = document.location.hash,
         prefix = "tab_",
@@ -217,153 +159,109 @@ $.when($.getJSON('js/bd.json?ver=1', (data) => {
 
     // Если в урле есть фильтр, то используем его, если нет, то юзаем тот что по умолчанию
     let getFilter = () => {
-        let changeFilter = (choosedFilter) => {
-                if (choosedFilter !== "all") {
-                    choosedFilter = "." + choosedFilter;
-                    settingsBoxes.removeAttr('checked').parents(choosedFilter).children(':checkbox').prop('checked', true);
-                } else {
-                    settingsBoxes.attr('checked', true).prop('checked', true);
-                }
-            },
-            filter;
-
-        if ($.inArray(filterUrl, filtersArr) >= 0) {
-            activeFilter = ".filters>li." + filterUrl;
-            filter = filterUrl;
-        }
-        else {
-            activeFilter = ".filters>li." + chosClass;
-            filter = chosClass;
-        }
+        let chosClass = "start";
+        let filter = $.inArray(filterUrl, filtersArr) >= 0 ? filterUrl : chosClass;
+        let activeFilter = ".filters>li." + filter;
 
         $(activeFilter).addClass('active').siblings().removeClass('active');
-        changeFilter(filter);
+
+        return filter;
     };
 
     getFilter();
 
-    $('.filters li').on('click', function () {
-
-        let $this = $(this),
-            clsString = $this.attr('class');
-
-        $this.addClass('active').siblings().removeClass('active');
-        clsString = clsString.replace(/active/g, '');
-
-        changeFilter(clsString);
-    });
-
-    p_l = positionChecked.eq(Math.floor(Math.random() * positionChecked.length)).val();
-    t_t = race.find(":checked").eq(Math.floor(Math.random() * race.find(":checked").length));
-    t_l = `<span class="help-link" data-toggle="tooltip" data-placement="top" title="${t_t.next('label').attr('title')}">${t_t.val()}</span> `;
-    b_l = body.find(":checked").eq(Math.floor(Math.random() * body.find(":checked").length)).val() + " ";
-    res_onload = b_l + t_l + p_l;
-
-    $('.srow').text(po_l);
-    $('.trow').text(tp_l);
-    $('.forow').text(bd_l);
-    $('.howmuch').text(getNumberFormat(howmuch));
-
-
-    res_info.html(res_onload);
-    result.html(`<p>${getHoliday(thisDay, thisMonth) + res_onload}</p>`);
     $('span.help-link').tooltip();
 
-    // Очистка чекбоксов по требованию
-    $('.sel-row').on('change click', function () {
-        let $this = $(this);
+    let generateHero = () => {
+        let body, race, hobby, bodyArr, raceArr, hobbyArr, currentFilter;
 
-        if ($this.prop('checked')) {
-            $this.parents().next('ul').children().children().prop('checked', true);
-        } else {
-            $this.parents().next('ul').children().children().removeAttr('checked');
-        }
-    });
+        currentFilter = getFilter();
 
-    getRandomHero = () => {
-        let hobbyChecked = position.find(":checked"),
-            hobbyLength = hobbyChecked.length,
-            racesChecked = race.find(":checked"),
-            raceLength = racesChecked.length,
-            bodyChecked = body.find(":checked"),
-            bodyLength = bodyChecked.length,
-            bdy,
-            body_r,
-            tp,
-            race_r,
-            pos_r,
-            res,
-            bodyStatus;
+        let generator = (obj) => {
+            let tempArr = [];
 
-        // Присваивается качественный статус - magic, epic, legend, unusual, common
-        bodyStatus = (bdy) => {
-            let status;
+            for (let i = 0; i < obj.length; i++) {
 
-            if (bdy.parent('li').hasClass('magic')) {
-                status = "magic";
-            } else if (bdy.parent('li').hasClass('epic')) {
-                status = "epic";
-            } else if (bdy.parent('li').hasClass('legend')) {
-                status = "legend";
-            } else if (bdy.parent('li').hasClass('unusual')) {
-                status = "unusual";
-            } else if (!bdy.parent('li').hasClass('epic') || !bdy.parent('li').hasClass('unusual') || !bdy.parent('li').hasClass('magic') || !bdy.parent('li').hasClass('legend')) {
-                status = "common";
+                for (let filter in obj[i].filters) {
+                    if (currentFilter !== 'all') {
+                        if (currentFilter === obj[i].filters[filter]) {
+                            tempArr.push(obj[i]);
+                        }
+                    } else {
+                        tempArr.push(obj[i]);
+                    }
+
+                }
             }
 
-            return `<span class="attr" data-status="${status}">${bdy.val()}</span> `;
+            return tempArr;
         };
 
-        //		var getBody = function getBody(amount) {
-        //			var randomOfBody = Math.floor(Math.random() * amount),
-        //				bodyChecked = body.find(":checked"),
-        //				bodyEq = bodyChecked.eq(randomOfBody);
-        //
-        //			if (amount > 1) {
-        //				return bodyEq;
-        //			} else if (amount === 1){
-        //				return bodyChecked;
-        //			} else {
-        //				return "";
-        //			}
-        //		};
+        bodyArr = generator(bodyObj);
+        raceArr = generator(raceObj);
+        hobbyArr = generator(hobbyObj);
 
-        if (bodyLength > 1) {
-            body_r = Math.floor(Math.random() * bodyLength);
-            bdy = bodyChecked.eq(body_r);
-            body_r = bodyStatus(bdy);
-        } else if (bodyLength === 1) {
-            bdy = bodyChecked;
-            body_r = bodyStatus(bdy);
-        } else {
-            body_r = "";
-        }
+        let randomItem = (obj) => {
+            let id = Math.floor(Math.random() * obj.length);
+            return obj[id];
+        };
 
-        if (raceLength > 1) {
-            race_r = Math.floor(Math.random() * raceLength);
-            tp = racesChecked.eq(race_r);
-            race_r = `<span class="help-link" data-toggle="tooltip" data-placement="top" title="${tp.next('label').attr('title')}" >${tp.val()}</span>`;
-        } else if (raceLength === 1) {
-            tp = racesChecked;
-            race_r = `<span class="help-link" data-toggle="tooltip" data-placement="top" title="${tp.next('label').attr('title')}" >${tp.val()}</span>`;
-        } else {
-            race_r = "";
-        }
+        body = randomItem(bodyArr);
+        race = randomItem(raceArr);
+        hobby = randomItem(hobbyArr);
 
-        if (hobbyLength > 1) {
-            pos_r = Math.floor(Math.random() * hobbyLength);
-            pos_r = " " + hobbyChecked.eq(pos_r).val();
-        } else if (hobbyLength === 1) {
-            pos_r = " " + hobbyChecked.val();
-        } else {
-            pos_r = "";
-        }
-
-        res = body_r + race_r + pos_r;
-        return res;
+        return body.name + ' ' + race.name + ' ' + hobby.name;
     };
 
-    // This function rotates blots and change images. I call this blot generator. Ofcourse this is not real generator, just simulate it.
+    result.html(`<p>${getHoliday(thisDay, thisMonth) + generateHero()}</p>`);
+
+    btnRls.on('click', () => {
+        btnRls.removeClass('rukles').addClass('btn-fill');
+        result.removeClass('anim--grow epic magic legend unusual common').addClass('anim--gone');
+
+        let howTime = parseInt($('.howTime').val(), 10),
+            charArr = [],
+            i = 0;
+
+        if (howTime !== "" && !isNaN(howTime)) {
+            if (howTime > 100) {
+                howTime = 100;
+            } else if (howTime < 0) {
+                howTime = 1;
+            }
+        } else {
+            howTime = 1;
+        }
+
+        while (i < howTime) {
+            charArr.push(`<p>${getHoliday(thisDay, thisMonth) + generateHero()}</p>`);
+            i = i + 1;
+        }
+
+        setTimeout(() => {
+            result.html(charArr)
+                .removeClass('anim--gone')
+                .addClass('anim--grow')
+                .find('p').each(function () {
+                let $this = $(this),
+                    status = $this.children('span.attr').data('status');
+
+                $this.addClass(status);
+            });
+
+            $('span.help-link').tooltip();
+        }, 800);
+
+        setTimeout(() => {
+            btnRls.removeClass('btn-fill').addClass('rukles');
+        }, 1000);
+    });
+
+    /*
+     * Второй экран с пятнами
+     *
+     * */
+// This function rotates blots and change images. I call this blot generator. Ofcourse this is not real generator, just simulate it.
     rotateBlots = (blotsInFolder) => {
         let blotItems = $('.can-blot'),
             blot1 = blotItems.filter('.blot-1'),
@@ -409,8 +307,7 @@ $.when($.getJSON('js/bd.json?ver=1', (data) => {
         rotateBlots();
     });
 
-    btnBlot.on('click', (e) => {
-        e.preventDefault();
+    btnBlot.on('click', () => {
         rotateBlots();
 
         blotParentContainer.addClass('anim--hurricane');
@@ -433,52 +330,6 @@ $.when($.getJSON('js/bd.json?ver=1', (data) => {
         $(this).removeClass('touched');
     }).on('click', function () {
         $(this).toggleClass('stopped');
-    });
-
-    btnRls.on('click', (e) => {
-        e.preventDefault();
-
-        //notifyMe(); // Уведомлялки
-
-        btnRls.removeClass('rukles').addClass('btn-fill');
-        result.removeClass('anim--grow epic magic legend unusual common').addClass('anim--gone');
-
-        let howTime = parseInt($('.howTime').val(), 10),
-            charArr = [],
-            i = 0;
-
-        if (howTime !== "" && !isNaN(howTime)) {
-            if (howTime > 100) {
-                howTime = 100;
-            } else if (howTime < 0) {
-                howTime = 1;
-            }
-        } else {
-            howTime = 1;
-        }
-
-        while (i < howTime) {
-            charArr.push(`<p>${getHoliday(thisDay, thisMonth) + getRandomHero()}</p>`);
-            i = i + 1;
-        }
-
-        setTimeout(() => {
-            result.html(charArr)
-                .removeClass('anim--gone')
-                .addClass('anim--grow')
-                .find('p').each(function () {
-                let $this = $(this),
-                    status = $this.children('span.attr').data('status');
-
-                $this.addClass(status);
-            });
-
-            $('span.help-link').tooltip();
-        }, 800);
-
-        setTimeout(() => {
-            btnRls.removeClass('btn-fill').addClass('rukles');
-        }, 1000);
     });
 
     if (hash) {
@@ -566,3 +417,4 @@ $.when($.getJSON('js/bd.json?ver=1', (data) => {
         }
     });
 });
+

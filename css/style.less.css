@@ -83,7 +83,7 @@ h1 span.glyphicon {
   left: 10%;
   right: 10%;
   padding: 0;
-  background: #ffffff url('../img/rukles_hist_opacity.png') no-repeat center center;
+  /*background: #ffffff url('../img/rukles_hist_opacity.png') no-repeat center center;*/
   background-size: 50%;
   background-attachment: fixed;
   border-radius: 30px;
@@ -377,7 +377,7 @@ footer a:hover {
   color: #000000;
 }
 .rls-bg {
-  background: #393939 url(/img/bg_bf.png) no-repeat;
+  background: #393939 url('../img/bg_bf.png') no-repeat;
   background-size: 100%;
 }
 .absolute-settings {
@@ -659,7 +659,7 @@ footer a:hover {
   width: calc(100% - 100px);
 }
 .tutorial .tut figure {
-  background: #ffffff url(/img/fox.png) no-repeat center center;
+  background: #ffffff url('../img/fox.png') no-repeat center center;
   background-size: 100% 100%;
   width: 80px;
   height: 80px;

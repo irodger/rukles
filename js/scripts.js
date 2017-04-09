@@ -147,7 +147,7 @@ $.when(
         nextTutorial = tutorial.find('.next-tut'),
         closeTutorial = tutorial.find('.close-tut'),
         position = $('.position'),
-        btnRls = $('.rukles'),
+        generateButton = document.querySelector('.rukles'),
         btnBlot = $('.blots'),
         blotParentContainer = $('.blot-cont'),
         blotContainer = blotParentContainer.find('.blot'),
@@ -222,8 +222,8 @@ $.when(
 
     result.html(`${getHoliday(thisDay, thisMonth) + generateHero()}`);
 
-    btnRls.on('click', () => {
-        btnRls.removeClass('rukles').addClass('btn-fill');
+    generateButton.onclick = () => {
+        $(generateButton).removeClass('rukles').addClass('btn-fill');
         result.removeClass('anim--grow epic magic legend unusual common').addClass('anim--gone');
 
         let howTime = parseInt($('.howTime').val(), 10),
@@ -260,9 +260,9 @@ $.when(
         }, 800);
 
         setTimeout(() => {
-            btnRls.removeClass('btn-fill').addClass('rukles');
+            $(generateButton).removeClass('btn-fill').addClass('rukles');
         }, 1000);
-    });
+    };
 
     /*
      * Второй экран с пятнами
@@ -326,7 +326,7 @@ $.when(
     });
 
     // Приятная кнопочка на мобилках
-    btnRls.on('touchstart', function () {
+    $(generateButton).on('touchstart', function () {
         $(this).addClass('touched');
     }).on('touchend', function () {
         $(this).removeClass('touched');

@@ -158,7 +158,6 @@
 			</div>
 		</div>
 	</section>
-	<div class="popup-overlay"></div>
 	<div class="collapse well" id="hist">
 		<div class="pull-right clearfix">
 			<button type="button" class="close" aria-label="Close" aria-hidden="true" data-toggle="collapse" data-target="#hist"><span aria-hidden="true"><span class="glyphicon glyphicon-remove-sign"></span></span>
@@ -273,9 +272,7 @@
 	</div>
 	<div class="container-fluid insta">
 		<div class="row">
-			<h2 class="text-center">Руклес из Instagram</h2>
-			<div id="instafeed" class="text-center instagram clearfix block-center"></div>
-			<p class="text-center"><a href="https://www.instagram.com/explore/tags/rukles/" target="_blank">Посмотреть все</a></p>
+			<p class="text-center"><a href="https://www.instagram.com/explore/tags/rukles/" target="_blank">Ваши руклесы в Instagram</a></p>
 		</div>
 	</div>
 	<footer class="container-fluid">
@@ -317,6 +314,7 @@
 							<li>Переписан генератор персонажей</li>
 							<li>Полностью удалены настройки</li>
 							<li>Немного рефакторинга в сторону ES6</li>
+							<li>Выпилена интеграция с Инстаграммом</li>
 						</ul>
 						<hr>
 						<h5>ver 0.8.0</h5>
@@ -458,23 +456,12 @@
 			</div>
 		</div>
 	</footer>
+	<div class="popup-overlay"></div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/social-likes.min.js"></script>
 	<script src="./js/js.cookie.min.js"></script>
-	<script src="./js/instafeed.min.js"></script>
 	<script src="./js/scripts.js"></script>
-	<script type="text/javascript">
-        var feed = new Instafeed({
-            limit: 10,
-            get: 'tagged',
-            tagName: 'rukles',
-            //sortBy: 'most-liked',
-            clientId: '467ede5a6b9b48ae8e03f4e2582aeeb3',
-            template: '<a href="{{link}}" class="instagram__link" target="_blank"><img src="{{image}}" alt="{{caption}}" title="{{caption}}" /></a>'
-        });
-        feed.run();
-	</script>
 </body>
 
 </html>

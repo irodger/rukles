@@ -415,7 +415,7 @@ footer a:hover {
   color: #000000;
 }
 .rls-bg {
-  background: #393939 url('../img/bg_bf.png') no-repeat;
+  background: #393939 url('../img/bg_bf.png') no-repeat 0 80px;
   background-size: 100%;
 }
 .absolute-settings {

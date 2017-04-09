@@ -13,7 +13,10 @@ $(document).on('scroll', () => {
     }
 });
 
-// Подтягиваем базу характеристик из json
+/*
+* Get rukles items from JSON
+* */
+
 $.when(
     $.getJSON('js/bd.json?ver=1', (data) => {
         'use strict';
@@ -51,7 +54,10 @@ $.when(
         thisDay = dt.getDate(),
         thisMonth = dt.getMonth(),
 
-        // Holidays update
+        /*
+        * Holidays update.
+        * Rukles get holiday name when now is holidays
+        * */
         getHoliday = (day, month) => {
             let holidays = {
                     newYear: {
@@ -125,7 +131,9 @@ $.when(
             }
         },
 
-        // Парсим адрес
+        /*
+        * Parse URI for keys
+        * */
         getUrlParameter = (sParam) => {
             let sURLVariables = window.location.search.substring(1).split('&'),
                 sParameterName, i;
@@ -147,8 +155,8 @@ $.when(
         nextTutorial = tutorial.find('.next-tut'),
         closeTutorial = tutorial.find('.close-tut'),
         position = $('.position'),
-        generateButton = document.querySelector('.rukles'),
-        btnBlot = $('.blots'),
+        generateHeroButton = document.querySelector('.rukles'),
+        generateBlotButton = document.querySelector('.blots'),
         blotParentContainer = $('.blot-cont'),
         blotContainer = blotParentContainer.find('.blot'),
         result = $('#result'),
@@ -164,7 +172,11 @@ $.when(
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "); // Возвращает строку в формате - 123 456
     };
 
-    // Если в урле есть фильтр, то используем его, если нет, то юзаем тот что по умолчанию
+    /*
+    * Get filter from URI.
+    * If URI has no filter, we use default
+    **/
+
     let getFilter = () => {
         let chosClass = "start";
         let filter = $.inArray(filterUrl, filtersArr) >= 0 ? filterUrl : chosClass;
@@ -204,14 +216,14 @@ $.when(
             return tempArr;
         };
 
-        bodyArr = generator(bodyObj);
-        raceArr = generator(raceObj);
-        hobbyArr = generator(hobbyObj);
-
         let randomItem = (obj) => {
             let id = Math.floor(Math.random() * obj.length);
             return obj[id];
         };
+
+        bodyArr = generator(bodyObj);
+        raceArr = generator(raceObj);
+        hobbyArr = generator(hobbyObj);
 
         body = randomItem(bodyArr);
         race = randomItem(raceArr);
@@ -222,8 +234,8 @@ $.when(
 
     result.html(`${getHoliday(thisDay, thisMonth) + generateHero()}`);
 
-    generateButton.onclick = () => {
-        $(generateButton).removeClass('rukles').addClass('btn-fill');
+    generateHeroButton.onclick = () => {
+        $(generateHeroButton).removeClass('rukles').addClass('btn-fill');
         result.removeClass('anim--grow epic magic legend unusual common').addClass('anim--gone');
 
         let howTime = parseInt($('.howTime').val(), 10),
@@ -240,8 +252,10 @@ $.when(
             howTime = 1;
         }
 
+        let hero = generateHero();
+
         while (i < howTime) {
-            charArr.push(`${getHoliday(thisDay, thisMonth) + generateHero()}`);
+            charArr.push(`${getHoliday(thisDay, thisMonth) + hero}`);
             i = i + 1;
         }
 
@@ -260,16 +274,16 @@ $.when(
         }, 800);
 
         setTimeout(() => {
-            $(generateButton).removeClass('btn-fill').addClass('rukles');
+            $(generateHeroButton).removeClass('btn-fill').addClass('rukles');
         }, 1000);
     };
 
     /*
-     * Второй экран с пятнами
-     *
+     * This function rotates blots and change images.
+     * I call this blot generator.
+     * Of course this is not real generator, just simulate it.
      * */
 
-    // This function rotates blots and change images. I call this blot generator. Ofcourse this is not real generator, just simulate it.
     rotateBlots = (blotsInFolder) => {
         let blotItems = $('.can-blot'),
             blot1 = blotItems.filter('.blot-1'),
@@ -280,13 +294,10 @@ $.when(
             bl1_left = blot1.css('left'),
             bl2_left = blot2.css('left'),
             bl3_top = blot3.css('top'),
-            bl5_top = blot5.css('top');
+            bl5_top = blot5.css('top'),
+            blotsNumDefault = 8;
 
-        if (blotsInFolder !== "" && !isNaN(blotsInFolder)) {
-            blotImagesInFolder = blotsInFolder;
-        } else {
-            blotImagesInFolder = 8;
-        }
+        blotImagesInFolder = blotsInFolder !== "" && !isNaN(blotsInFolder) ? blotsInFolder : blotsNumDefault;
 
         blotItems.children().each(function () {
             let $this = $(this),
@@ -315,7 +326,7 @@ $.when(
         rotateBlots();
     });
 
-    btnBlot.on('click', () => {
+    generateBlotButton.onclick = () => {
         rotateBlots();
 
         blotParentContainer.addClass('anim--hurricane');
@@ -323,10 +334,13 @@ $.when(
         setTimeout(() => {
             blotParentContainer.removeClass('anim--hurricane');
         }, 1500);
-    });
+    };
 
-    // Приятная кнопочка на мобилках
-    $(generateButton).on('touchstart', function () {
+    /*
+    * Nice button on mobile device when pressing
+    * */
+
+    $(generateHeroButton).on('touchstart', function () {
         $(this).addClass('touched');
     }).on('touchend', function () {
         $(this).removeClass('touched');
@@ -344,7 +358,10 @@ $.when(
         $('.ru-tabs a[href=' + hash.replace(prefix, "") + ']').tab('show');
     }
 
-    // Change hash for page-reload
+    /*
+    * Change hash for page-reload
+    * */
+
     $('.ru-tabs a').on('shown', (ev) => {
         window.location.hash = ev.target.hash.replace("#", "#" + prefix);
     });

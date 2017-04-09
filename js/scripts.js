@@ -1,15 +1,22 @@
 'use strict';
 
-var bodyObj = [],
+let bodyObj = [],
     raceObj = [],
     hobbyObj = [],
     Arr = [];
+
+$(document).on('scroll', () => {
+    if ($('.header-top').offset().top > 0) {
+        $('.header-top').addClass('header-top_mini')
+    } else {
+        $('.header-top').removeClass('header-top_mini')
+    }
+});
 
 // Подтягиваем базу характеристик из json
 $.when(
     $.getJSON('js/bd.json?ver=1', (data) => {
         'use strict';
-
 
         $.each(data.body, (key, val) => {
             Arr = val.filter.split(" ");
@@ -213,7 +220,7 @@ $.when(
         return body.name + ' ' + race.name + ' ' + hobby.name;
     };
 
-    result.html(`<p>${getHoliday(thisDay, thisMonth) + generateHero()}</p>`);
+    result.html(`${getHoliday(thisDay, thisMonth) + generateHero()}`);
 
     btnRls.on('click', () => {
         btnRls.removeClass('rukles').addClass('btn-fill');
@@ -234,7 +241,7 @@ $.when(
         }
 
         while (i < howTime) {
-            charArr.push(`<p>${getHoliday(thisDay, thisMonth) + generateHero()}</p>`);
+            charArr.push(`${getHoliday(thisDay, thisMonth) + generateHero()}`);
             i = i + 1;
         }
 
@@ -261,7 +268,8 @@ $.when(
      * Второй экран с пятнами
      *
      * */
-// This function rotates blots and change images. I call this blot generator. Ofcourse this is not real generator, just simulate it.
+
+    // This function rotates blots and change images. I call this blot generator. Ofcourse this is not real generator, just simulate it.
     rotateBlots = (blotsInFolder) => {
         let blotItems = $('.can-blot'),
             blot1 = blotItems.filter('.blot-1'),
@@ -353,7 +361,7 @@ $.when(
         }, 300);
     });
 
-    $('.glyphicon-remove-sign').on('click', () => {
+    $('.glyphicon-remove-sign, .popup-overlay').on('click', () => {
         overlay.hide();
     });
 
@@ -364,7 +372,6 @@ $.when(
             $('#hist').removeClass('in');
             settings.css('z-index', '51');
         }
-        overlay.hide();
     });
 
     $("[data-target='#hist']").on('click', function () {

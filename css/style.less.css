@@ -348,46 +348,47 @@ span.glyphicon-remove {
 .ru-tabs li.active a:hover {
   border: 0;
 }
-.header {
-  padding-top: 15px;
-  margin-bottom: 15px;
-}
 .header-top {
   position: fixed;
   width: 100%;
   background-color: #ffffff;
   z-index: 50;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .header-nav {
-
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 15px;
 }
 .header-top_mini .header-nav {
-    margin-bottom: 0;
-    padding-top: 5px;
-    transition: .2s all linear;
+  margin-bottom: 0;
+  padding-top: 5px;
+  transition: .2s all linear;
 }
 .header-nav__logo {
-    background: url('../img/logo.png') no-repeat;
-    background-size: 100% auto;
-    display: inline-block;
-    vertical-align: middle;
-    width: 164px;
-    height: 50px;
-    text-indent: -9999px;
+  background: url('../img/logo.png') no-repeat;
+  background-size: 100% auto;
+  display: inline-block;
+  vertical-align: middle;
+  width: 164px;
+  height: 50px;
+  text-indent: -9999px;
 }
 .header-top_mini .header-nav__logo {
-    width: 50px;
-    height: 50px;
-    background-size: 300% auto;
+  width: 50px;
+  height: 50px;
+  background-size: 300% auto;
 }
 .header-nav__logo img {
-    max-height: 50px;
+  max-height: 50px;
 }
 .header-nav__icon {
-    font-size: 13px;
+  font-size: 13px;
 }
 .content {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 footer {
   padding-bottom: 30px;
@@ -537,11 +538,15 @@ footer a:hover {
   top: 45%;
   left: 50%;
 }
+.filter-i {
+  text-align: center;
+}
 .filter-i-list {
   margin-top: 10px;
 }
 .filter-i-list li {
   margin: auto 10px;
+  padding: 0;
   display: inline-block;
   width: 65px;
 }
